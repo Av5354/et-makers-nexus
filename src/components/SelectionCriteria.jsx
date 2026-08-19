@@ -15,9 +15,10 @@ export default function SelectionCriteria() {
             <span className="eyebrow">Selection Criteria</span>
           </div>
           <h2 data-reveal className="mt-6 font-display text-3xl sm:text-4xl lg:text-5xl">
-            Eight parameters of manufacturing leadership
+            <span className="text-gold-gradient">08</span> Criteria
           </h2>
         </div>
+
 
         <div className="mt-14 grid gap-px border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {SELECTION_CRITERIA.map((item, index) => (
